@@ -1,0 +1,592 @@
+@prefix ex: <http://example.org/> .
+@prefix p1: <http://example.org/p1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:SightingEvent0 a p1:SightingEvent ;
+    p1:date "1949-10-10"^^xsd:date ;
+    p1:duration "PT45M"^^xsd:duration ;
+    p1:location ex:Location0 ;
+    p1:shape ex:Shape0 ;
+    p1:time "20:30:00"^^xsd:time .
+
+ex:SightingEvent10 a p1:SightingEvent ;
+    p1:date "1968-10-10"^^xsd:date ;
+    p1:duration "PT5M"^^xsd:duration ;
+    p1:location ex:Location7 ;
+    p1:shape ex:Shape1 ;
+    p1:time "13:00:00"^^xsd:time .
+
+ex:SightingEvent11 a p1:SightingEvent ;
+    p1:date "1968-10-10"^^xsd:date ;
+    p1:duration "PT3M"^^xsd:duration ;
+    p1:location ex:Location8 ;
+    p1:shape ex:Shape5 ;
+    p1:time "19:00:00"^^xsd:time .
+
+ex:SightingEvent12 a p1:SightingEvent ;
+    p1:date "1970-10-10"^^xsd:date ;
+    p1:duration "PT30M"^^xsd:duration ;
+    p1:location ex:Location9 ;
+    p1:shape ex:Shape4 ;
+    p1:time "16:00:00"^^xsd:time .
+
+ex:SightingEvent13 a p1:SightingEvent ;
+    p1:date "1970-10-10"^^xsd:date ;
+    p1:duration "PT3M"^^xsd:duration ;
+    p1:location ex:Location10 ;
+    p1:shape ex:Shape6 ;
+    p1:time "19:00:00"^^xsd:time .
+
+ex:SightingEvent14 a p1:SightingEvent ;
+    p1:date "1971-10-10"^^xsd:date ;
+    p1:duration "PT30S"^^xsd:duration ;
+    p1:location ex:Location11 ;
+    p1:shape ex:Shape7 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent15 a p1:SightingEvent ;
+    p1:date "1972-10-10"^^xsd:date ;
+    p1:duration "PT20M"^^xsd:duration ;
+    p1:location ex:Location12 ;
+    p1:shape ex:Shape1 ;
+    p1:time "19:00:00"^^xsd:time .
+
+ex:SightingEvent16 a p1:SightingEvent ;
+    p1:date "1972-10-10"^^xsd:date ;
+    p1:duration "PT2M"^^xsd:duration ;
+    p1:location ex:Location13 ;
+    p1:shape ex:Shape4 ;
+    p1:time "22:30:00"^^xsd:time .
+
+ex:SightingEvent17 a p1:SightingEvent ;
+    p1:date "1973-10-10"^^xsd:date ;
+    p1:duration "PT30M"^^xsd:duration ;
+    p1:location ex:Location14 ;
+    p1:shape ex:Shape4 ;
+    p1:time "19:00:00"^^xsd:time .
+
+ex:SightingEvent19 a p1:SightingEvent ;
+    p1:date "1974-10-10"^^xsd:date ;
+    p1:duration "PT45M"^^xsd:duration ;
+    p1:location ex:Location15 ;
+    p1:shape ex:Shape8 ;
+    p1:time "19:30:00"^^xsd:time .
+
+ex:SightingEvent21 a p1:SightingEvent ;
+    p1:date "1974-10-10"^^xsd:date ;
+    p1:duration "PT20M"^^xsd:duration ;
+    p1:location ex:Location16 ;
+    p1:shape ex:Shape2 ;
+    p1:time "23:00:00"^^xsd:time .
+
+ex:SightingEvent22 a p1:SightingEvent ;
+    p1:date "1975-10-10"^^xsd:date ;
+    p1:duration "PT6M"^^xsd:duration ;
+    p1:location ex:Location17 ;
+    p1:shape ex:Shape2 ;
+    p1:time "17:00:00"^^xsd:time .
+
+ex:SightingEvent23 a p1:SightingEvent ;
+    p1:date "1976-10-10"^^xsd:date ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location18 ;
+    p1:shape ex:Shape7 ;
+    p1:time "20:30:00"^^xsd:time .
+
+ex:SightingEvent25 a p1:SightingEvent ;
+    p1:date "1977-10-10"^^xsd:date ;
+    p1:duration "PT30S"^^xsd:duration ;
+    p1:location ex:Location19 ;
+    p1:shape ex:Shape8 ;
+    p1:time "12:00:00"^^xsd:time .
+
+ex:SightingEvent26 a p1:SightingEvent ;
+    p1:date "1977-10-10"^^xsd:date ;
+    p1:duration "PT30S"^^xsd:duration ;
+    p1:location ex:Location20 ;
+    p1:shape ex:Shape2 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent27 a p1:SightingEvent ;
+    p1:date "1978-10-10"^^xsd:date ;
+    p1:duration "PT5M"^^xsd:duration ;
+    p1:location ex:Location21 ;
+    p1:shape ex:Shape9 ;
+    p1:time "02:00:00"^^xsd:time .
+
+ex:SightingEvent28 a p1:SightingEvent ;
+    p1:date "1979-10-10"^^xsd:date ;
+    p1:duration "PT15M"^^xsd:duration ;
+    p1:location ex:Location22 ;
+    p1:shape ex:Shape10 ;
+    p1:time "00:00:00"^^xsd:time .
+
+ex:SightingEvent3 a p1:SightingEvent ;
+    p1:date "1956-10-10"^^xsd:date ;
+    p1:duration "PT20S"^^xsd:duration ;
+    p1:location ex:Location1 ;
+    p1:shape ex:Shape1 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent30 a p1:SightingEvent ;
+    p1:date "1979-10-10"^^xsd:date ;
+    p1:duration "PT3M"^^xsd:duration ;
+    p1:location ex:Location23 ;
+    p1:shape ex:Shape7 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent31 a p1:SightingEvent ;
+    p1:date "1979-10-10"^^xsd:date ;
+    p1:duration "PT30M"^^xsd:duration ;
+    p1:location ex:Location24 ;
+    p1:shape ex:Shape6 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent32 a p1:SightingEvent ;
+    p1:date "1980-10-10"^^xsd:date ;
+    p1:duration "PT3M"^^xsd:duration ;
+    p1:location ex:Location25 ;
+    p1:shape ex:Shape3 ;
+    p1:time "19:00:00"^^xsd:time .
+
+ex:SightingEvent33 a p1:SightingEvent ;
+    p1:date "1980-10-10"^^xsd:date ;
+    p1:duration "PT5M"^^xsd:duration ;
+    p1:location ex:Location26 ;
+    p1:shape ex:Shape6 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent34 a p1:SightingEvent ;
+    p1:date "1980-10-10"^^xsd:date ;
+    p1:duration "PT5M"^^xsd:duration ;
+    p1:location ex:Location27 ;
+    p1:shape ex:Shape2 ;
+    p1:time "23:30:00"^^xsd:time .
+
+ex:SightingEvent36 a p1:SightingEvent ;
+    p1:date "1984-10-10"^^xsd:date ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location25 ;
+    p1:shape ex:Shape1 ;
+    p1:time "05:00:00"^^xsd:time .
+
+ex:SightingEvent37 a p1:SightingEvent ;
+    p1:date "1984-10-10"^^xsd:date ;
+    p1:duration "PT2M"^^xsd:duration ;
+    p1:location ex:Location28 ;
+    p1:shape ex:Shape8 ;
+    p1:time "12:00:00"^^xsd:time .
+
+ex:SightingEvent38 a p1:SightingEvent ;
+    p1:date "1984-10-10"^^xsd:date ;
+    p1:duration "PT20S"^^xsd:duration ;
+    p1:location ex:Location29 ;
+    p1:shape ex:Shape11 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent4 a p1:SightingEvent ;
+    p1:date "1960-10-10"^^xsd:date ;
+    p1:duration "PT15M"^^xsd:duration ;
+    p1:location ex:Location2 ;
+    p1:shape ex:Shape2 ;
+    p1:time "20:00:00"^^xsd:time .
+
+ex:SightingEvent41 a p1:SightingEvent ;
+    p1:date "1988-10-10"^^xsd:date ;
+    p1:duration "PT10M"^^xsd:duration ;
+    p1:location ex:Location30 ;
+    p1:shape ex:Shape12 ;
+    p1:time "18:00:00"^^xsd:time .
+
+ex:SightingEvent42 a p1:SightingEvent ;
+    p1:date "1988-10-10"^^xsd:date ;
+    p1:duration "PT2M"^^xsd:duration ;
+    p1:location ex:Location31 ;
+    p1:shape ex:Shape6 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent43 a p1:SightingEvent ;
+    p1:date "1988-10-10"^^xsd:date ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location32 ;
+    p1:shape ex:Shape2 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent44 a p1:SightingEvent ;
+    p1:date "1988-10-10"^^xsd:date ;
+    p1:duration "PT2S"^^xsd:duration ;
+    p1:location ex:Location33 ;
+    p1:shape ex:Shape6 ;
+    p1:time "22:45:00"^^xsd:time .
+
+ex:SightingEvent45 a p1:SightingEvent ;
+    p1:date "1989-10-10"^^xsd:date ;
+    p1:duration "PT5M"^^xsd:duration ;
+    p1:location ex:Location34 ;
+    p1:shape ex:Shape4 ;
+    p1:time "00:00:00"^^xsd:time .
+
+ex:SightingEvent46 a p1:SightingEvent ;
+    p1:date "1989-10-10"^^xsd:date ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location35 ;
+    p1:shape ex:Shape12 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent48 a p1:SightingEvent ;
+    p1:date "1990-10-10"^^xsd:date ;
+    p1:duration "PT2M"^^xsd:duration ;
+    p1:location ex:Location36 ;
+    p1:shape ex:Shape12 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent49 a p1:SightingEvent ;
+    p1:date "1991-10-10"^^xsd:date ;
+    p1:duration "PT30M"^^xsd:duration ;
+    p1:location ex:Location37 ;
+    p1:shape ex:Shape6 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent5 a p1:SightingEvent ;
+    p1:date "1961-10-10"^^xsd:date ;
+    p1:duration "PT5M"^^xsd:duration ;
+    p1:location ex:Location3 ;
+    p1:shape ex:Shape3 ;
+    p1:time "19:00:00"^^xsd:time .
+
+ex:SightingEvent50 a p1:SightingEvent ;
+    p1:date "1991-10-10"^^xsd:date ;
+    p1:duration "PT10M"^^xsd:duration ;
+    p1:location ex:Location38 ;
+    p1:shape ex:Shape12 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent51 a p1:SightingEvent ;
+    p1:date "1992-10-10"^^xsd:date ;
+    p1:duration "PT1H"^^xsd:duration ;
+    p1:location ex:Location39 ;
+    p1:shape ex:Shape11 ;
+    p1:time "17:00:00"^^xsd:time .
+
+ex:SightingEvent52 a p1:SightingEvent ;
+    p1:date "1992-10-10"^^xsd:date ;
+    p1:duration "PT10S"^^xsd:duration ;
+    p1:location ex:Location40 ;
+    p1:shape ex:Shape6 ;
+    p1:time "18:00:00"^^xsd:time .
+
+ex:SightingEvent53 a p1:SightingEvent ;
+    p1:date "1992-10-10"^^xsd:date ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location41 ;
+    p1:shape ex:Shape13 ;
+    p1:time "20:15:00"^^xsd:time .
+
+ex:SightingEvent54 a p1:SightingEvent ;
+    p1:date "1992-10-10"^^xsd:date ;
+    p1:duration "PT30S"^^xsd:duration ;
+    p1:location ex:Location42 ;
+    p1:shape ex:Shape6 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent56 a p1:SightingEvent ;
+    p1:date "1993-10-10"^^xsd:date ;
+    p1:duration "PT8S"^^xsd:duration ;
+    p1:location ex:Location43 ;
+    p1:shape ex:Shape2 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent57 a p1:SightingEvent ;
+    p1:date "1993-10-10"^^xsd:date ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location44 ;
+    p1:shape ex:Shape8 ;
+    p1:time "23:00:00"^^xsd:time .
+
+ex:SightingEvent59 a p1:SightingEvent ;
+    p1:date "1994-10-10"^^xsd:date ;
+    p1:duration "PT2M"^^xsd:duration ;
+    p1:location ex:Location45 ;
+    p1:shape ex:Shape9 ;
+    p1:time "18:30:00"^^xsd:time .
+
+ex:SightingEvent60 a p1:SightingEvent ;
+    p1:date "1994-10-10"^^xsd:date ;
+    p1:duration "PT5S"^^xsd:duration ;
+    p1:location ex:Location46 ;
+    p1:shape ex:Shape2 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent61 a p1:SightingEvent ;
+    p1:date "1994-10-10"^^xsd:date ;
+    p1:duration "PT1H"^^xsd:duration ;
+    p1:location ex:Location47 ;
+    p1:shape ex:Shape3 ;
+    p1:time "23:00:00"^^xsd:time .
+
+ex:SightingEvent64 a p1:SightingEvent ;
+    p1:date "1996-10-10"^^xsd:date ;
+    p1:duration "PT3S"^^xsd:duration ;
+    p1:location ex:Location48 ;
+    p1:shape ex:Shape12 ;
+    p1:time "03:20:00"^^xsd:time .
+
+ex:SightingEvent7 a p1:SightingEvent ;
+    p1:date "1965-10-10"^^xsd:date ;
+    p1:duration "PT20M"^^xsd:duration ;
+    p1:location ex:Location4 ;
+    p1:shape ex:Shape4 ;
+    p1:time "23:45:00"^^xsd:time .
+
+ex:SightingEvent8 a p1:SightingEvent ;
+    p1:date "1966-10-10"^^xsd:date ;
+    p1:duration "PT3M"^^xsd:duration ;
+    p1:location ex:Location5 ;
+    p1:shape ex:Shape4 ;
+    p1:time "20:00:00"^^xsd:time .
+
+ex:SightingEvent9 a p1:SightingEvent ;
+    p1:date "1966-10-10"^^xsd:date ;
+    p1:duration "PT2M"^^xsd:duration ;
+    p1:location ex:Location6 ;
+    p1:shape ex:Shape4 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:Location0 a p1:Location ;
+    p1:latitude 29.8830556 ;
+    p1:longitude -97.9411111 .
+
+ex:Location1 a p1:Location ;
+    p1:latitude 28.9783333 ;
+    p1:longitude -96.6458333 .
+
+ex:Location10 a p1:Location ;
+    p1:latitude 37.1536111 ;
+    p1:longitude -83.7619444 .
+
+ex:Location11 a p1:Location ;
+    p1:latitude 35.8238889 ;
+    p1:longitude -80.2536111 .
+
+ex:Location12 a p1:Location ;
+    p1:latitude 36.8430556 ;
+    p1:longitude -83.3219444 .
+
+ex:Location13 a p1:Location ;
+    p1:latitude 42.5377778 ;
+    p1:longitude -83.2330556 .
+
+ex:Location14 a p1:Location ;
+    p1:latitude 41.3252778 ;
+    p1:longitude -72.1936111 .
+
+ex:Location15 a p1:Location ;
+    p1:latitude 42.3916667 ;
+    p1:longitude -71.5666667 .
+
+ex:Location16 a p1:Location ;
+    p1:latitude 38.1055556 ;
+    p1:longitude -98.6597222 .
+
+ex:Location17 a p1:Location ;
+    p1:latitude 32.8544444 ;
+    p1:longitude -79.975 .
+
+ex:Location18 a p1:Location ;
+    p1:latitude 45.5827778 ;
+    p1:longitude -122.3522222 .
+
+ex:Location19 a p1:Location ;
+    p1:latitude 29.4238889 ;
+    p1:longitude -98.4933333 .
+
+ex:Location2 a p1:Location ;
+    p1:latitude 21.4180556 ;
+    p1:longitude -157.8036111 .
+
+ex:Location20 a p1:Location ;
+    p1:latitude 38.2541667 ;
+    p1:longitude -85.7594444 .
+
+ex:Location21 a p1:Location ;
+    p1:latitude 40.7008333 ;
+    p1:longitude -73.7133333 .
+
+ex:Location22 a p1:Location ;
+    p1:latitude 41.7002778 ;
+    p1:longitude -73.9213889 .
+
+ex:Location23 a p1:Location ;
+    p1:latitude 32.7152778 ;
+    p1:longitude -117.1563889 .
+
+ex:Location24 a p1:Location ;
+    p1:latitude 38.7583333 ;
+    p1:longitude -104.7425 .
+
+ex:Location26 a p1:Location ;
+    p1:latitude 32.7833333 ;
+    p1:longitude -96.8 .
+
+ex:Location27 a p1:Location ;
+    p1:latitude 42.9955556 ;
+    p1:longitude -71.4552778 .
+
+ex:Location28 a p1:Location ;
+    p1:latitude 44.7630556 ;
+    p1:longitude -85.6205556 .
+
+ex:Location29 a p1:Location ;
+    p1:latitude 41.0338889 ;
+    p1:longitude -73.7633333 .
+
+ex:Location3 a p1:Location ;
+    p1:latitude 36.595 ;
+    p1:longitude -82.1888889 .
+
+ex:Location30 a p1:Location ;
+    p1:latitude 43.0388889 ;
+    p1:longitude -87.9063889 .
+
+ex:Location31 a p1:Location ;
+    p1:latitude 43.9627778 ;
+    p1:longitude -70.2830556 .
+
+ex:Location32 a p1:Location ;
+    p1:latitude 40.015 ;
+    p1:longitude -105.27 .
+
+ex:Location33 a p1:Location ;
+    p1:latitude 47.6063889 ;
+    p1:longitude -122.3308333 .
+
+ex:Location34 a p1:Location ;
+    p1:latitude 34.1577778 ;
+    p1:longitude -118.6375 .
+
+ex:Location35 a p1:Location ;
+    p1:latitude 46.7163889 ;
+    p1:longitude -122.9530556 .
+
+ex:Location36 a p1:Location ;
+    p1:latitude 31.7058333 ;
+    p1:longitude -83.6533333 .
+
+ex:Location37 a p1:Location ;
+    p1:latitude 35.235 ;
+    p1:longitude -75.6288889 .
+
+ex:Location38 a p1:Location ;
+    p1:latitude 40.2736111 ;
+    p1:longitude -76.8847222 .
+
+ex:Location39 a p1:Location ;
+    p1:latitude 30.1586111 ;
+    p1:longitude -85.6602778 .
+
+ex:Location4 a p1:Location ;
+    p1:latitude 41.1175 ;
+    p1:longitude -73.4083333 .
+
+ex:Location40 a p1:Location ;
+    p1:latitude 29.6158333 ;
+    p1:longitude -95.5575 .
+
+ex:Location41 a p1:Location ;
+    p1:latitude 35.8905556 ;
+    p1:longitude -83.7247222 .
+
+ex:Location42 a p1:Location ;
+    p1:latitude 32.7591667 ;
+    p1:longitude -97.7969444 .
+
+ex:Location43 a p1:Location ;
+    p1:latitude 40.6936111 ;
+    p1:longitude -89.5888889 .
+
+ex:Location44 a p1:Location ;
+    p1:latitude 36.2522222 ;
+    p1:longitude -85.9516667 .
+
+ex:Location45 a p1:Location ;
+    p1:latitude 42.9097222 ;
+    p1:longitude -73.8955556 .
+
+ex:Location46 a p1:Location ;
+    p1:latitude 34.1027778 ;
+    p1:longitude -91.9922222 .
+
+ex:Location47 a p1:Location ;
+    p1:latitude 43.666667 ;
+    p1:longitude -79.416667 .
+
+ex:Location48 a p1:Location ;
+    p1:latitude 39.0725 ;
+    p1:longitude -93.7169444 .
+
+ex:Location5 a p1:Location ;
+    p1:latitude 33.5861111 ;
+    p1:longitude -86.2861111 .
+
+ex:Location6 a p1:Location ;
+    p1:latitude 30.2947222 ;
+    p1:longitude -82.9841667 .
+
+ex:Location7 a p1:Location ;
+    p1:latitude 33.9163889 ;
+    p1:longitude -118.3516667 .
+
+ex:Location8 a p1:Location ;
+    p1:latitude 35.2333333 ;
+    p1:longitude -82.7344444 .
+
+ex:Location9 a p1:Location ;
+    p1:latitude 40.6686111 ;
+    p1:longitude -73.5275 .
+
+ex:Shape0 a p1:Shape ;
+    p1:name "cylinder"^^xsd:string .
+
+ex:Shape10 a p1:Shape ;
+    p1:name "chevron"^^xsd:string .
+
+ex:Shape13 a p1:Shape ;
+    p1:name "cigar"^^xsd:string .
+
+ex:Shape5 a p1:Shape ;
+    p1:name "fireball"^^xsd:string .
+
+ex:Location25 a p1:Location ;
+    p1:latitude 29.7630556 ;
+    p1:longitude -95.3630556 .
+
+ex:Shape11 a p1:Shape ;
+    p1:name "formation"^^xsd:string .
+
+ex:Shape9 a p1:Shape ;
+    p1:name "rectangle"^^xsd:string .
+
+ex:Shape3 a p1:Shape ;
+    p1:name "sphere"^^xsd:string .
+
+ex:Shape7 a p1:Shape ;
+    p1:name "oval"^^xsd:string .
+
+ex:Shape1 a p1:Shape ;
+    p1:name "circle"^^xsd:string .
+
+ex:Shape8 a p1:Shape ;
+    p1:name "other"^^xsd:string .
+
+ex:Shape12 a p1:Shape ;
+    p1:name "triangle"^^xsd:string .
+
+ex:Shape4 a p1:Shape ;
+    p1:name "disk"^^xsd:string .
+
+ex:Shape2 a p1:Shape ;
+    p1:name "light"^^xsd:string .
+
+ex:Shape6 a p1:Shape ;
+    p1:name "unknown"^^xsd:string .
+

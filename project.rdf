@@ -1,0 +1,115 @@
+@prefix p1: <https://idmc.univ-lorraine.fr/sw/p1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+##################################################
+#    Classes
+##################################################
+
+p1:Event rdf:type owl:Class .
+
+p1:SightingEvent rdf:type owl:Class ;
+    rdfs:subClassOf p1:Event .
+
+p1:AbductionEvent rdf:type owl:Class ;
+    rdfs:subClassOf p1:Event .
+
+p1:Agent rdf:type owl:Class .
+
+p1:Person rdf:type owl:Class ;
+    rdfs:subClassOf p1:Agent .
+
+p1:Witness rdf:type owl:Class ;
+    rdfs:subClassOf p1:Person .
+
+p1:Gender rdf:type owl:Class .
+
+p1:Location rdf:type owl:Class ;
+    rdfs:subClassOf schema:Place .
+
+p1:Shape rdf:type owl:Class .
+
+p1:City rdf:type owl:Class ;
+    rdfs:subClassOf schema:Place .
+
+p1:Country rdf:type owl:Class ;
+    rdfs:subClassOf schema:Place .
+
+##################################################
+#    Object Properties
+##################################################
+
+p1:gender rdf:type owl:ObjectProperty ,
+        owl:FunctionalProperty ;
+    rdfs:domain p1:Person ;
+    rdfs:range p1:Gender .
+
+p1:location rdf:type owl:ObjectProperty ;
+    rdfs:domain p1:Event ;
+    rdfs:range p1:Location .
+
+p1:witnessOf rdf:type owl:ObjectProperty ;
+    rdfs:domain p1:Event ;
+    rdfs:range p1:Witness .
+
+p1:shape rdf:type owl:ObjectProperty ;
+    rdfs:domain p1:Event ;
+    rdfs:range p1:Shape .
+
+p1:city rdf:type owl:ObjectProperty ;
+    rdfs:domain p1:Location ;
+    rdfs:range p1:City .
+
+p1:country rdf:type owl:ObjectProperty ;
+    rdfs:domain p1:Location ;
+    rdfs:range p1:Country .
+
+##################################################
+#    Data Properties
+##################################################
+
+p1:age rdf:type owl:DatatypeProperty ,
+        owl:FunctionalProperty ;
+    rdfs:domain p1:Person ;
+    rdfs:range xsd:integer .
+
+p1:date rdf:type owl:DatatypeProperty ,
+        owl:FunctionalProperty ;
+    rdfs:domain p1:Event ;
+    rdfs:range xsd:date .
+
+p1:time rdf:type owl:DatatypeProperty ,
+        owl:FunctionalProperty ;
+    rdfs:domain p1:Event ;
+    rdfs:range xsd:time .
+
+p1:duration rdf:type owl:DatatypeProperty ,
+        owl:FunctionalProperty ;
+    rdfs:domain p1:Event ;
+    rdfs:range xsd:duration .
+
+p1:name rdf:type owl:DatatypeProperty ;
+    rdfs:domain p1:Agent ;
+    rdfs:range xsd:string .
+
+p1:latitude rdf:type owl:DatatypeProperty ;
+    rdfs:domain p1:Location ;
+    rdfs:range xsd:decimal .
+
+p1:longitude rdf:type owl:DatatypeProperty ;
+    rdfs:domain p1:Location ;
+    rdfs:range xsd:decimal .
+
+##################################################
+#    Individuals
+##################################################
+
+p1:female rdf:type owl:NamedIndividual ,
+                   p1:Gender .
+
+p1:male rdf:type owl:NamedIndividual ,
+                   p1:Gender .
