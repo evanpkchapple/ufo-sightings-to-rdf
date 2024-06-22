@@ -104,6 +104,10 @@ p1:longitude rdf:type owl:DatatypeProperty ;
     rdfs:domain p1:Location ;
     rdfs:range xsd:decimal .
 
+p1:description rdf:type owl:DatatypeProperty ;
+    rdfs:domain p1:SightingEvent ;
+    rdfs:range xsd:string .
+
 ##################################################
 #    Individuals
 ##################################################

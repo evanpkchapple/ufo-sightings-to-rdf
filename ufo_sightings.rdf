@@ -1,356 +1,702 @@
-@prefix ex: <http://example.org/> .
-@prefix p1: <http://example.org/p1#> .
+@prefix ex: <https://idmc.univ-lorraine.fr/sw/ex#> .
+@prefix p1: <https://idmc.univ-lorraine.fr/sw/p1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ex:SightingEvent0 a p1:SightingEvent ;
     p1:date "1949-10-10"^^xsd:date ;
+    p1:description "This event took place in early fall around 1949-50. It occurred after a Boy Scout meeting in the Baptist Church. The Baptist Church sit"^^xsd:string ;
     p1:duration "PT45M"^^xsd:duration ;
     p1:location ex:Location0 ;
     p1:shape ex:Shape0 ;
     p1:time "20:30:00"^^xsd:time .
 
-ex:SightingEvent10 a p1:SightingEvent ;
-    p1:date "1968-10-10"^^xsd:date ;
-    p1:duration "PT5M"^^xsd:duration ;
-    p1:location ex:Location7 ;
-    p1:shape ex:Shape1 ;
-    p1:time "13:00:00"^^xsd:time .
-
-ex:SightingEvent11 a p1:SightingEvent ;
-    p1:date "1968-10-10"^^xsd:date ;
-    p1:duration "PT3M"^^xsd:duration ;
-    p1:location ex:Location8 ;
-    p1:shape ex:Shape5 ;
-    p1:time "19:00:00"^^xsd:time .
-
-ex:SightingEvent12 a p1:SightingEvent ;
-    p1:date "1970-10-10"^^xsd:date ;
-    p1:duration "PT30M"^^xsd:duration ;
-    p1:location ex:Location9 ;
-    p1:shape ex:Shape4 ;
-    p1:time "16:00:00"^^xsd:time .
-
-ex:SightingEvent13 a p1:SightingEvent ;
-    p1:date "1970-10-10"^^xsd:date ;
-    p1:duration "PT3M"^^xsd:duration ;
-    p1:location ex:Location10 ;
-    p1:shape ex:Shape6 ;
-    p1:time "19:00:00"^^xsd:time .
-
-ex:SightingEvent14 a p1:SightingEvent ;
-    p1:date "1971-10-10"^^xsd:date ;
-    p1:duration "PT30S"^^xsd:duration ;
-    p1:location ex:Location11 ;
-    p1:shape ex:Shape7 ;
-    p1:time "21:00:00"^^xsd:time .
-
-ex:SightingEvent15 a p1:SightingEvent ;
-    p1:date "1972-10-10"^^xsd:date ;
-    p1:duration "PT20M"^^xsd:duration ;
-    p1:location ex:Location12 ;
-    p1:shape ex:Shape1 ;
-    p1:time "19:00:00"^^xsd:time .
-
-ex:SightingEvent16 a p1:SightingEvent ;
-    p1:date "1972-10-10"^^xsd:date ;
-    p1:duration "PT2M"^^xsd:duration ;
-    p1:location ex:Location13 ;
-    p1:shape ex:Shape4 ;
-    p1:time "22:30:00"^^xsd:time .
-
-ex:SightingEvent17 a p1:SightingEvent ;
-    p1:date "1973-10-10"^^xsd:date ;
-    p1:duration "PT30M"^^xsd:duration ;
-    p1:location ex:Location14 ;
-    p1:shape ex:Shape4 ;
-    p1:time "19:00:00"^^xsd:time .
-
-ex:SightingEvent19 a p1:SightingEvent ;
-    p1:date "1974-10-10"^^xsd:date ;
-    p1:duration "PT45M"^^xsd:duration ;
-    p1:location ex:Location15 ;
-    p1:shape ex:Shape8 ;
-    p1:time "19:30:00"^^xsd:time .
-
-ex:SightingEvent21 a p1:SightingEvent ;
-    p1:date "1974-10-10"^^xsd:date ;
-    p1:duration "PT20M"^^xsd:duration ;
-    p1:location ex:Location16 ;
-    p1:shape ex:Shape2 ;
-    p1:time "23:00:00"^^xsd:time .
-
-ex:SightingEvent22 a p1:SightingEvent ;
-    p1:date "1975-10-10"^^xsd:date ;
-    p1:duration "PT6M"^^xsd:duration ;
-    p1:location ex:Location17 ;
-    p1:shape ex:Shape2 ;
-    p1:time "17:00:00"^^xsd:time .
-
-ex:SightingEvent23 a p1:SightingEvent ;
-    p1:date "1976-10-10"^^xsd:date ;
-    p1:duration "PT1M"^^xsd:duration ;
-    p1:location ex:Location18 ;
-    p1:shape ex:Shape7 ;
-    p1:time "20:30:00"^^xsd:time .
-
-ex:SightingEvent25 a p1:SightingEvent ;
-    p1:date "1977-10-10"^^xsd:date ;
-    p1:duration "PT30S"^^xsd:duration ;
-    p1:location ex:Location19 ;
-    p1:shape ex:Shape8 ;
-    p1:time "12:00:00"^^xsd:time .
-
-ex:SightingEvent26 a p1:SightingEvent ;
-    p1:date "1977-10-10"^^xsd:date ;
-    p1:duration "PT30S"^^xsd:duration ;
-    p1:location ex:Location20 ;
-    p1:shape ex:Shape2 ;
-    p1:time "22:00:00"^^xsd:time .
-
-ex:SightingEvent27 a p1:SightingEvent ;
-    p1:date "1978-10-10"^^xsd:date ;
-    p1:duration "PT5M"^^xsd:duration ;
-    p1:location ex:Location21 ;
-    p1:shape ex:Shape9 ;
-    p1:time "02:00:00"^^xsd:time .
-
-ex:SightingEvent28 a p1:SightingEvent ;
-    p1:date "1979-10-10"^^xsd:date ;
-    p1:duration "PT15M"^^xsd:duration ;
-    p1:location ex:Location22 ;
-    p1:shape ex:Shape10 ;
-    p1:time "00:00:00"^^xsd:time .
-
-ex:SightingEvent3 a p1:SightingEvent ;
+ex:SightingEvent1 a p1:SightingEvent ;
     p1:date "1956-10-10"^^xsd:date ;
+    p1:description "My older brother and twin sister were leaving the only Edna theater at about 9 PM&#44...we had our bikes and I took a different route home"^^xsd:string ;
     p1:duration "PT20S"^^xsd:duration ;
     p1:location ex:Location1 ;
     p1:shape ex:Shape1 ;
     p1:time "21:00:00"^^xsd:time .
 
-ex:SightingEvent30 a p1:SightingEvent ;
-    p1:date "1979-10-10"^^xsd:date ;
+ex:SightingEvent10 a p1:SightingEvent ;
+    p1:date "1970-10-10"^^xsd:date ;
+    p1:description "Slow moving&#44 silent craft accelerated at an unbelievable angle and speed."^^xsd:string ;
     p1:duration "PT3M"^^xsd:duration ;
-    p1:location ex:Location23 ;
-    p1:shape ex:Shape7 ;
-    p1:time "22:00:00"^^xsd:time .
-
-ex:SightingEvent31 a p1:SightingEvent ;
-    p1:date "1979-10-10"^^xsd:date ;
-    p1:duration "PT30M"^^xsd:duration ;
-    p1:location ex:Location24 ;
+    p1:location ex:Location10 ;
     p1:shape ex:Shape6 ;
-    p1:time "22:00:00"^^xsd:time .
-
-ex:SightingEvent32 a p1:SightingEvent ;
-    p1:date "1980-10-10"^^xsd:date ;
-    p1:duration "PT3M"^^xsd:duration ;
-    p1:location ex:Location25 ;
-    p1:shape ex:Shape3 ;
     p1:time "19:00:00"^^xsd:time .
 
-ex:SightingEvent33 a p1:SightingEvent ;
-    p1:date "1980-10-10"^^xsd:date ;
-    p1:duration "PT5M"^^xsd:duration ;
-    p1:location ex:Location26 ;
-    p1:shape ex:Shape6 ;
-    p1:time "22:00:00"^^xsd:time .
+ex:SightingEvent11 a p1:SightingEvent ;
+    p1:date "1971-10-10"^^xsd:date ;
+    p1:description "green oval shaped light over my local church&#44power lines down.."^^xsd:string ;
+    p1:duration "PT30S"^^xsd:duration ;
+    p1:location ex:Location11 ;
+    p1:shape ex:Shape7 ;
+    p1:time "21:00:00"^^xsd:time .
 
-ex:SightingEvent34 a p1:SightingEvent ;
-    p1:date "1980-10-10"^^xsd:date ;
-    p1:duration "PT5M"^^xsd:duration ;
-    p1:location ex:Location27 ;
-    p1:shape ex:Shape2 ;
-    p1:time "23:30:00"^^xsd:time .
-
-ex:SightingEvent36 a p1:SightingEvent ;
-    p1:date "1984-10-10"^^xsd:date ;
-    p1:duration "PT1M"^^xsd:duration ;
-    p1:location ex:Location25 ;
+ex:SightingEvent12 a p1:SightingEvent ;
+    p1:date "1972-10-10"^^xsd:date ;
+    p1:description "On october 10&#44 1972 myself&#44my 5yrs.daughter&#442 neices and 2 nephews were playing tag in the back yard .When we looked over on the ridge"^^xsd:string ;
+    p1:duration "PT20M"^^xsd:duration ;
+    p1:location ex:Location12 ;
     p1:shape ex:Shape1 ;
-    p1:time "05:00:00"^^xsd:time .
+    p1:time "19:00:00"^^xsd:time .
 
-ex:SightingEvent37 a p1:SightingEvent ;
-    p1:date "1984-10-10"^^xsd:date ;
+ex:SightingEvent13 a p1:SightingEvent ;
+    p1:date "1972-10-10"^^xsd:date ;
+    p1:description "The UFO was so close&#44 my battery in the car went to zero amps&#44 stalling the engine&#44 turning off my lights and radio."^^xsd:string ;
     p1:duration "PT2M"^^xsd:duration ;
-    p1:location ex:Location28 ;
+    p1:location ex:Location13 ;
+    p1:shape ex:Shape4 ;
+    p1:time "22:30:00"^^xsd:time .
+
+ex:SightingEvent14 a p1:SightingEvent ;
+    p1:date "1973-10-10"^^xsd:date ;
+    p1:description "Oh&#44 what a night &#33  Two (2) saucer-shaped&#44 glowing green objects and one (1) brilliantly glowing sphere gliding over the lake."^^xsd:string ;
+    p1:duration "PT30M"^^xsd:duration ;
+    p1:location ex:Location14 ;
+    p1:shape ex:Shape4 ;
+    p1:time "19:00:00"^^xsd:time .
+
+ex:SightingEvent15 a p1:SightingEvent ;
+    p1:date "1974-10-10"^^xsd:date ;
+    p1:description "Not sure of the eact month or year of this sighting but it was in the fall of 74 or 75. Was walking home around dusk and saw a bright l"^^xsd:string ;
+    p1:duration "PT45M"^^xsd:duration ;
+    p1:location ex:Location15 ;
+    p1:shape ex:Shape8 ;
+    p1:time "19:30:00"^^xsd:time .
+
+ex:SightingEvent16 a p1:SightingEvent ;
+    p1:date "1974-10-10"^^xsd:date ;
+    p1:description "The light chased us."^^xsd:string ;
+    p1:duration "PT20M"^^xsd:duration ;
+    p1:location ex:Location16 ;
+    p1:shape ex:Shape2 ;
+    p1:time "23:00:00"^^xsd:time .
+
+ex:SightingEvent17 a p1:SightingEvent ;
+    p1:date "1975-10-10"^^xsd:date ;
+    p1:description "Several Flashing UFO lights over Charleston Naval Base in S.C."^^xsd:string ;
+    p1:duration "PT6M"^^xsd:duration ;
+    p1:location ex:Location17 ;
+    p1:shape ex:Shape2 ;
+    p1:time "17:00:00"^^xsd:time .
+
+ex:SightingEvent18 a p1:SightingEvent ;
+    p1:date "1976-10-10"^^xsd:date ;
+    p1:description "Three extremely large lights hanging above nearby trees."^^xsd:string ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location18 ;
+    p1:shape ex:Shape7 ;
+    p1:time "20:30:00"^^xsd:time .
+
+ex:SightingEvent19 a p1:SightingEvent ;
+    p1:date "1977-10-10"^^xsd:date ;
+    p1:description "i was about six or seven and my family and me were sitting next to a window at home eating when a type of dark ball hit the screen wind"^^xsd:string ;
+    p1:duration "PT30S"^^xsd:duration ;
+    p1:location ex:Location19 ;
     p1:shape ex:Shape8 ;
     p1:time "12:00:00"^^xsd:time .
 
-ex:SightingEvent38 a p1:SightingEvent ;
-    p1:date "1984-10-10"^^xsd:date ;
-    p1:duration "PT20S"^^xsd:duration ;
-    p1:location ex:Location29 ;
-    p1:shape ex:Shape11 ;
-    p1:time "22:00:00"^^xsd:time .
-
-ex:SightingEvent4 a p1:SightingEvent ;
+ex:SightingEvent2 a p1:SightingEvent ;
     p1:date "1960-10-10"^^xsd:date ;
+    p1:description "AS a Marine 1st Lt. flying an FJ4B fighter/attack aircraft on a solo night exercise&#44 I was at 50&#44000&#39 in a &quot;clean&quot; aircraft (no ordinan"^^xsd:string ;
     p1:duration "PT15M"^^xsd:duration ;
     p1:location ex:Location2 ;
     p1:shape ex:Shape2 ;
     p1:time "20:00:00"^^xsd:time .
 
-ex:SightingEvent41 a p1:SightingEvent ;
-    p1:date "1988-10-10"^^xsd:date ;
-    p1:duration "PT10M"^^xsd:duration ;
-    p1:location ex:Location30 ;
-    p1:shape ex:Shape12 ;
-    p1:time "18:00:00"^^xsd:time .
-
-ex:SightingEvent42 a p1:SightingEvent ;
-    p1:date "1988-10-10"^^xsd:date ;
-    p1:duration "PT2M"^^xsd:duration ;
-    p1:location ex:Location31 ;
-    p1:shape ex:Shape6 ;
-    p1:time "21:00:00"^^xsd:time .
-
-ex:SightingEvent43 a p1:SightingEvent ;
-    p1:date "1988-10-10"^^xsd:date ;
-    p1:duration "PT1M"^^xsd:duration ;
-    p1:location ex:Location32 ;
+ex:SightingEvent20 a p1:SightingEvent ;
+    p1:date "1977-10-10"^^xsd:date ;
+    p1:description "HBCCUFO CANADIAN REPORT:  Pilot Sighting Of Unusual Light."^^xsd:string ;
+    p1:duration "PT30S"^^xsd:duration ;
+    p1:location ex:Location20 ;
     p1:shape ex:Shape2 ;
     p1:time "22:00:00"^^xsd:time .
 
-ex:SightingEvent44 a p1:SightingEvent ;
-    p1:date "1988-10-10"^^xsd:date ;
-    p1:duration "PT2S"^^xsd:duration ;
-    p1:location ex:Location33 ;
-    p1:shape ex:Shape6 ;
-    p1:time "22:45:00"^^xsd:time .
-
-ex:SightingEvent45 a p1:SightingEvent ;
-    p1:date "1989-10-10"^^xsd:date ;
+ex:SightingEvent21 a p1:SightingEvent ;
+    p1:date "1978-10-10"^^xsd:date ;
+    p1:description "A memory I will never forget that happened meny years ago."^^xsd:string ;
     p1:duration "PT5M"^^xsd:duration ;
-    p1:location ex:Location34 ;
-    p1:shape ex:Shape4 ;
+    p1:location ex:Location21 ;
+    p1:shape ex:Shape9 ;
+    p1:time "02:00:00"^^xsd:time .
+
+ex:SightingEvent22 a p1:SightingEvent ;
+    p1:date "1979-10-10"^^xsd:date ;
+    p1:description "1/4 moon-like&#44  its &#39chord&#39 or flat side parallel to horizon&#44  bright orange-red glow&#44  completely silent&#44 no features."^^xsd:string ;
+    p1:duration "PT15M"^^xsd:duration ;
+    p1:location ex:Location22 ;
+    p1:shape ex:Shape10 ;
     p1:time "00:00:00"^^xsd:time .
 
-ex:SightingEvent46 a p1:SightingEvent ;
-    p1:date "1989-10-10"^^xsd:date ;
-    p1:duration "PT1M"^^xsd:duration ;
-    p1:location ex:Location35 ;
-    p1:shape ex:Shape12 ;
-    p1:time "21:00:00"^^xsd:time .
+ex:SightingEvent23 a p1:SightingEvent ;
+    p1:date "1979-10-10"^^xsd:date ;
+    p1:description "My 2nd UFO sighting&#44 October 1979"^^xsd:string ;
+    p1:duration "PT3M"^^xsd:duration ;
+    p1:location ex:Location23 ;
+    p1:shape ex:Shape7 ;
+    p1:time "22:00:00"^^xsd:time .
 
-ex:SightingEvent48 a p1:SightingEvent ;
-    p1:date "1990-10-10"^^xsd:date ;
-    p1:duration "PT2M"^^xsd:duration ;
-    p1:location ex:Location36 ;
-    p1:shape ex:Shape12 ;
-    p1:time "21:00:00"^^xsd:time .
-
-ex:SightingEvent49 a p1:SightingEvent ;
-    p1:date "1991-10-10"^^xsd:date ;
+ex:SightingEvent24 a p1:SightingEvent ;
+    p1:date "1979-10-10"^^xsd:date ;
+    p1:description "very low clouds all different colors&#44search lights were seen shining down out of the clouds on the houses and streets. this event was s"^^xsd:string ;
     p1:duration "PT30M"^^xsd:duration ;
-    p1:location ex:Location37 ;
+    p1:location ex:Location24 ;
     p1:shape ex:Shape6 ;
     p1:time "22:00:00"^^xsd:time .
 
-ex:SightingEvent5 a p1:SightingEvent ;
+ex:SightingEvent25 a p1:SightingEvent ;
+    p1:date "1980-10-10"^^xsd:date ;
+    p1:description "Sphere&#44 No lights&#44  moving through neighborhoods above tree tops&#44 over busy streets in Houston in 1980."^^xsd:string ;
+    p1:duration "PT3M"^^xsd:duration ;
+    p1:location ex:Location25 ;
+    p1:shape ex:Shape3 ;
+    p1:time "19:00:00"^^xsd:time .
+
+ex:SightingEvent26 a p1:SightingEvent ;
+    p1:date "1980-10-10"^^xsd:date ;
+    p1:description "Strange shape shifting craft of pure light energy."^^xsd:string ;
+    p1:duration "PT5M"^^xsd:duration ;
+    p1:location ex:Location26 ;
+    p1:shape ex:Shape6 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent27 a p1:SightingEvent ;
+    p1:date "1980-10-10"^^xsd:date ;
+    p1:description "A red glowing sphere stopped and watched me."^^xsd:string ;
+    p1:duration "PT5M"^^xsd:duration ;
+    p1:location ex:Location27 ;
+    p1:shape ex:Shape2 ;
+    p1:time "23:30:00"^^xsd:time .
+
+ex:SightingEvent28 a p1:SightingEvent ;
+    p1:date "1984-10-10"^^xsd:date ;
+    p1:description "2 experience with unkown"^^xsd:string ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location25 ;
+    p1:shape ex:Shape1 ;
+    p1:time "05:00:00"^^xsd:time .
+
+ex:SightingEvent29 a p1:SightingEvent ;
+    p1:date "1984-10-10"^^xsd:date ;
+    p1:description "translucent football seen over city airport"^^xsd:string ;
+    p1:duration "PT2M"^^xsd:duration ;
+    p1:location ex:Location28 ;
+    p1:shape ex:Shape8 ;
+    p1:time "12:00:00"^^xsd:time .
+
+ex:SightingEvent3 a p1:SightingEvent ;
     p1:date "1961-10-10"^^xsd:date ;
+    p1:description "My father is now 89 my brother 52 the girl with us now 51 myself 49 and the other fellow which worked with my father if he&#39s still livi"^^xsd:string ;
     p1:duration "PT5M"^^xsd:duration ;
     p1:location ex:Location3 ;
     p1:shape ex:Shape3 ;
     p1:time "19:00:00"^^xsd:time .
 
-ex:SightingEvent50 a p1:SightingEvent ;
+ex:SightingEvent30 a p1:SightingEvent ;
+    p1:date "1984-10-10"^^xsd:date ;
+    p1:description "Saw a hugh object in sky with lights intermittently placed not making any noise traveling north in the night sky.It had no real identif"^^xsd:string ;
+    p1:duration "PT20S"^^xsd:duration ;
+    p1:location ex:Location29 ;
+    p1:shape ex:Shape11 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent31 a p1:SightingEvent ;
+    p1:date "1988-10-10"^^xsd:date ;
+    p1:description "A silent black triangular object with no lights moved over us as we walked our dog across a school playground."^^xsd:string ;
+    p1:duration "PT10M"^^xsd:duration ;
+    p1:location ex:Location30 ;
+    p1:shape ex:Shape12 ;
+    p1:time "18:00:00"^^xsd:time .
+
+ex:SightingEvent32 a p1:SightingEvent ;
+    p1:date "1988-10-10"^^xsd:date ;
+    p1:description "I&#39m still afraid to look at the sky at night."^^xsd:string ;
+    p1:duration "PT2M"^^xsd:duration ;
+    p1:location ex:Location31 ;
+    p1:shape ex:Shape6 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent33 a p1:SightingEvent ;
+    p1:date "1988-10-10"^^xsd:date ;
+    p1:description "Three Stars Begin to Move Randomly&#44 Stop&#44 Change Direction&#44 Move Again&#44 And Then Vanish"^^xsd:string ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location32 ;
+    p1:shape ex:Shape2 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent34 a p1:SightingEvent ;
+    p1:date "1988-10-10"^^xsd:date ;
+    p1:description "Two adult witnesses are stunned by the sound of an object that streaks above the home they are in."^^xsd:string ;
+    p1:duration "PT2S"^^xsd:duration ;
+    p1:location ex:Location33 ;
+    p1:shape ex:Shape6 ;
+    p1:time "22:45:00"^^xsd:time .
+
+ex:SightingEvent35 a p1:SightingEvent ;
+    p1:date "1989-10-10"^^xsd:date ;
+    p1:description "Unidentified object on Mulholland Highway."^^xsd:string ;
+    p1:duration "PT5M"^^xsd:duration ;
+    p1:location ex:Location34 ;
+    p1:shape ex:Shape4 ;
+    p1:time "00:00:00"^^xsd:time .
+
+ex:SightingEvent36 a p1:SightingEvent ;
+    p1:date "1989-10-10"^^xsd:date ;
+    p1:description "A huge triangularly shaped silent object that blotted out 25 degrees of the sky&#44 lighted by four glowing points."^^xsd:string ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location35 ;
+    p1:shape ex:Shape12 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent37 a p1:SightingEvent ;
+    p1:date "1990-10-10"^^xsd:date ;
+    p1:description "Translucent Craft that makes No Sound While Moving"^^xsd:string ;
+    p1:duration "PT2M"^^xsd:duration ;
+    p1:location ex:Location36 ;
+    p1:shape ex:Shape12 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent38 a p1:SightingEvent ;
     p1:date "1991-10-10"^^xsd:date ;
+    p1:description "A friend and myself were standing on the shore of the Pamlico sound as we observed 4 objects moving in up and down motions for about 30"^^xsd:string ;
+    p1:duration "PT30M"^^xsd:duration ;
+    p1:location ex:Location37 ;
+    p1:shape ex:Shape6 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent39 a p1:SightingEvent ;
+    p1:date "1991-10-10"^^xsd:date ;
+    p1:description "We observed 3 triangular shaped high speed objects&#33"^^xsd:string ;
     p1:duration "PT10M"^^xsd:duration ;
     p1:location ex:Location38 ;
     p1:shape ex:Shape12 ;
     p1:time "22:00:00"^^xsd:time .
 
-ex:SightingEvent51 a p1:SightingEvent ;
-    p1:date "1992-10-10"^^xsd:date ;
-    p1:duration "PT1H"^^xsd:duration ;
-    p1:location ex:Location39 ;
-    p1:shape ex:Shape11 ;
-    p1:time "17:00:00"^^xsd:time .
-
-ex:SightingEvent52 a p1:SightingEvent ;
-    p1:date "1992-10-10"^^xsd:date ;
-    p1:duration "PT10S"^^xsd:duration ;
-    p1:location ex:Location40 ;
-    p1:shape ex:Shape6 ;
-    p1:time "18:00:00"^^xsd:time .
-
-ex:SightingEvent53 a p1:SightingEvent ;
-    p1:date "1992-10-10"^^xsd:date ;
-    p1:duration "PT1M"^^xsd:duration ;
-    p1:location ex:Location41 ;
-    p1:shape ex:Shape13 ;
-    p1:time "20:15:00"^^xsd:time .
-
-ex:SightingEvent54 a p1:SightingEvent ;
-    p1:date "1992-10-10"^^xsd:date ;
-    p1:duration "PT30S"^^xsd:duration ;
-    p1:location ex:Location42 ;
-    p1:shape ex:Shape6 ;
-    p1:time "22:00:00"^^xsd:time .
-
-ex:SightingEvent56 a p1:SightingEvent ;
-    p1:date "1993-10-10"^^xsd:date ;
-    p1:duration "PT8S"^^xsd:duration ;
-    p1:location ex:Location43 ;
-    p1:shape ex:Shape2 ;
-    p1:time "22:00:00"^^xsd:time .
-
-ex:SightingEvent57 a p1:SightingEvent ;
-    p1:date "1993-10-10"^^xsd:date ;
-    p1:duration "PT1M"^^xsd:duration ;
-    p1:location ex:Location44 ;
-    p1:shape ex:Shape8 ;
-    p1:time "23:00:00"^^xsd:time .
-
-ex:SightingEvent59 a p1:SightingEvent ;
-    p1:date "1994-10-10"^^xsd:date ;
-    p1:duration "PT2M"^^xsd:duration ;
-    p1:location ex:Location45 ;
-    p1:shape ex:Shape9 ;
-    p1:time "18:30:00"^^xsd:time .
-
-ex:SightingEvent60 a p1:SightingEvent ;
-    p1:date "1994-10-10"^^xsd:date ;
-    p1:duration "PT5S"^^xsd:duration ;
-    p1:location ex:Location46 ;
-    p1:shape ex:Shape2 ;
-    p1:time "22:00:00"^^xsd:time .
-
-ex:SightingEvent61 a p1:SightingEvent ;
-    p1:date "1994-10-10"^^xsd:date ;
-    p1:duration "PT1H"^^xsd:duration ;
-    p1:location ex:Location47 ;
-    p1:shape ex:Shape3 ;
-    p1:time "23:00:00"^^xsd:time .
-
-ex:SightingEvent64 a p1:SightingEvent ;
-    p1:date "1996-10-10"^^xsd:date ;
-    p1:duration "PT3S"^^xsd:duration ;
-    p1:location ex:Location48 ;
-    p1:shape ex:Shape12 ;
-    p1:time "03:20:00"^^xsd:time .
-
-ex:SightingEvent7 a p1:SightingEvent ;
+ex:SightingEvent4 a p1:SightingEvent ;
     p1:date "1965-10-10"^^xsd:date ;
+    p1:description "A bright orange color changing to reddish color disk/saucer was observed hovering above power transmission lines."^^xsd:string ;
     p1:duration "PT20M"^^xsd:duration ;
     p1:location ex:Location4 ;
     p1:shape ex:Shape4 ;
     p1:time "23:45:00"^^xsd:time .
 
-ex:SightingEvent8 a p1:SightingEvent ;
+ex:SightingEvent40 a p1:SightingEvent ;
+    p1:date "1992-10-10"^^xsd:date ;
+    p1:description "During a road trip to Panama City a friend and I witnessed a pair of luminous light formations appear and dissappear over the Gulf."^^xsd:string ;
+    p1:duration "PT1H"^^xsd:duration ;
+    p1:location ex:Location39 ;
+    p1:shape ex:Shape11 ;
+    p1:time "17:00:00"^^xsd:time .
+
+ex:SightingEvent41 a p1:SightingEvent ;
+    p1:date "1992-10-10"^^xsd:date ;
+    p1:description "A man emerges from a beam of light that shines on a grassy field at night and he runs towards the Texas Instruments parking lot."^^xsd:string ;
+    p1:duration "PT10S"^^xsd:duration ;
+    p1:location ex:Location40 ;
+    p1:shape ex:Shape6 ;
+    p1:time "18:00:00"^^xsd:time .
+
+ex:SightingEvent42 a p1:SightingEvent ;
+    p1:date "1992-10-10"^^xsd:date ;
+    p1:description "Stationary Elongated UFO 200ft above vacant field with city lights on bottom"^^xsd:string ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location41 ;
+    p1:shape ex:Shape13 ;
+    p1:time "20:15:00"^^xsd:time .
+
+ex:SightingEvent43 a p1:SightingEvent ;
+    p1:date "1992-10-10"^^xsd:date ;
+    p1:description "Black or dark grey.  Too big&#44 too low&#44 too slow&#44 too quiet&#44 for a normal aircraft."^^xsd:string ;
+    p1:duration "PT30S"^^xsd:duration ;
+    p1:location ex:Location42 ;
+    p1:shape ex:Shape6 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent44 a p1:SightingEvent ;
+    p1:date "1993-10-10"^^xsd:date ;
+    p1:description "Light over Peoria&#44 IL that moves slowly&#44 stops in mid-air&#44 hovers&#44 changes colors&#44 shoots in opposite direction and disappears."^^xsd:string ;
+    p1:duration "PT8S"^^xsd:duration ;
+    p1:location ex:Location43 ;
+    p1:shape ex:Shape2 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent45 a p1:SightingEvent ;
+    p1:date "1993-10-10"^^xsd:date ;
+    p1:description "1 object with green and red lights"^^xsd:string ;
+    p1:duration "PT1M"^^xsd:duration ;
+    p1:location ex:Location44 ;
+    p1:shape ex:Shape8 ;
+    p1:time "23:00:00"^^xsd:time .
+
+ex:SightingEvent46 a p1:SightingEvent ;
+    p1:date "1994-10-10"^^xsd:date ;
+    p1:description "Giant rectangular craft (resembling an upside-down aircraft carrier) over highway near Saratoga&#44 NY."^^xsd:string ;
+    p1:duration "PT2M"^^xsd:duration ;
+    p1:location ex:Location45 ;
+    p1:shape ex:Shape9 ;
+    p1:time "18:30:00"^^xsd:time .
+
+ex:SightingEvent47 a p1:SightingEvent ;
+    p1:date "1994-10-10"^^xsd:date ;
+    p1:description "Round&#44 bright&#44 low flying object silently speeds West of Arkansas town at 11:30pm&#44 10/10/94."^^xsd:string ;
+    p1:duration "PT5S"^^xsd:duration ;
+    p1:location ex:Location46 ;
+    p1:shape ex:Shape2 ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent48 a p1:SightingEvent ;
+    p1:date "1994-10-10"^^xsd:date ;
+    p1:description "Large rusty sphere"^^xsd:string ;
+    p1:duration "PT1H"^^xsd:duration ;
+    p1:location ex:Location47 ;
+    p1:shape ex:Shape3 ;
+    p1:time "23:00:00"^^xsd:time .
+
+ex:SightingEvent49 a p1:SightingEvent ;
+    p1:date "1996-10-10"^^xsd:date ;
+    p1:description "illuminated triangular craft&#44 flying at high speed from South to North"^^xsd:string ;
+    p1:duration "PT3S"^^xsd:duration ;
+    p1:location ex:Location48 ;
+    p1:shape ex:Shape12 ;
+    p1:time "03:20:00"^^xsd:time .
+
+ex:SightingEvent5 a p1:SightingEvent ;
     p1:date "1966-10-10"^^xsd:date ;
+    p1:description "Strobe Lighted disk shape object observed close&#44 at low speeds&#44 and low altitude in Oct 1966 in Pell City Alabama"^^xsd:string ;
     p1:duration "PT3M"^^xsd:duration ;
     p1:location ex:Location5 ;
     p1:shape ex:Shape4 ;
     p1:time "20:00:00"^^xsd:time .
 
-ex:SightingEvent9 a p1:SightingEvent ;
+ex:SightingEvent50 a p1:SightingEvent ;
+    p1:date "2004-01-02"^^xsd:date ;
+    p1:description "A square red object, pinkish at the front."^^xsd:string ;
+    p1:location ex:Location49 ;
+    p1:time "04:30:00"^^xsd:time .
+
+ex:SightingEvent51 a p1:SightingEvent ;
+    p1:date "2004-01-09"^^xsd:date ;
+    p1:description "One large black triangular aircraft with three bright lights in a triangle formation. There was a rumbling sound."^^xsd:string ;
+    p1:location ex:Location50 ;
+    p1:time "14:00:00"^^xsd:time .
+
+ex:SightingEvent52 a p1:SightingEvent ;
+    p1:date "2004-01-09"^^xsd:date ;
+    p1:description "Strange light that was watched for one and a half hours."^^xsd:string ;
+    p1:location ex:Location51 ;
+    p1:time "22:30:00"^^xsd:time .
+
+ex:SightingEvent53 a p1:SightingEvent ;
+    p1:date "2004-01-12"^^xsd:date ;
+    p1:description "Round object with white lights all around it."^^xsd:string ;
+    p1:location ex:Location52 ;
+    p1:time "16:30:00"^^xsd:time .
+
+ex:SightingEvent54 a p1:SightingEvent ;
+    p1:date "2004-01-27"^^xsd:date ;
+    p1:description "Four dull red lights above the house, travelling fast and low."^^xsd:string ;
+    p1:location ex:Location53 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent55 a p1:SightingEvent ;
+    p1:date "2004-01-27"^^xsd:date ;
+    p1:description "One object seen over Retford Town Hall."^^xsd:string ;
+    p1:location ex:Location54 ;
+    p1:time "23:08:00"^^xsd:time .
+
+ex:SightingEvent56 a p1:SightingEvent ;
+    p1:date "2004-01-28"^^xsd:date ;
+    p1:description "Flashing green lights 1000-5000ft up in the sky."^^xsd:string ;
+    p1:location ex:Location53 ;
+    p1:time "18:30:00"^^xsd:time .
+
+ex:SightingEvent57 a p1:SightingEvent ;
+    p1:date "2004-01-28"^^xsd:date ;
+    p1:description "Lights in the night sky flying in formation."^^xsd:string ;
+    p1:location ex:Location55 ;
+    p1:time "18:15:00"^^xsd:time .
+
+ex:SightingEvent58 a p1:SightingEvent ;
+    p1:date "2004-02-04"^^xsd:date ;
+    p1:description "Object appeared to be a soundless pair of lights, one yellow, the other white. No discernable shape."^^xsd:string ;
+    p1:location ex:Location56 ;
+    p1:time "06:15:00"^^xsd:time .
+
+ex:SightingEvent59 a p1:SightingEvent ;
+    p1:date "2004-02-08"^^xsd:date ;
+    p1:description "Four lights, one brighter than the others, sometimes fading."^^xsd:string ;
+    p1:location ex:Location57 ;
+    p1:time "21:45:00"^^xsd:time .
+
+ex:SightingEvent6 a p1:SightingEvent ;
     p1:date "1966-10-10"^^xsd:date ;
+    p1:description "Saucer zaps energy from powerline as my pregnant mother receives mental signals not to pass info"^^xsd:string ;
     p1:duration "PT2M"^^xsd:duration ;
     p1:location ex:Location6 ;
     p1:shape ex:Shape4 ;
     p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent60 a p1:SightingEvent ;
+    p1:date "2003-01-04"^^xsd:date ;
+    p1:description "White object with vivid flashing green, blue and red lights."^^xsd:string ;
+    p1:time "21:15:00"^^xsd:time .
+
+ex:SightingEvent61 a p1:SightingEvent ;
+    p1:date "2003-01-06"^^xsd:date ;
+    p1:description "Three silver or white balls in the sky, joined by another two. Quite large. Travelling in a line."^^xsd:string ;
+    p1:location ex:Location52 ;
+    p1:time "15:00:00"^^xsd:time .
+
+ex:SightingEvent62 a p1:SightingEvent ;
+    p1:date "2003-01-07"^^xsd:date ;
+    p1:description "One bright white object, hovering at first, then moving quickly."^^xsd:string ;
+    p1:location ex:Location58 ;
+    p1:time "21:26:00"^^xsd:time .
+
+ex:SightingEvent63 a p1:SightingEvent ;
+    p1:date "2003-01-08"^^xsd:date ;
+    p1:description "Changing shape. Strong blue, green and red lights pulsating lights. Jumbo Jet sized."^^xsd:string ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent64 a p1:SightingEvent ;
+    p1:date "2003-01-10"^^xsd:date ;
+    p1:description "Lights, that were formed in a worm shape, wriggling around in the sky."^^xsd:string ;
+    p1:location ex:Location59 ;
+    p1:time "01:00:00"^^xsd:time .
+
+ex:SightingEvent65 a p1:SightingEvent ;
+    p1:date "2003-01-11"^^xsd:date ;
+    p1:description "Oblong in shape with three vertical flashing lights, red, yellow and green, all flashing at the same time."^^xsd:string ;
+    p1:location ex:Location60 ;
+    p1:time "23:45:00"^^xsd:time .
+
+ex:SightingEvent66 a p1:SightingEvent ;
+    p1:date "2003-01-13"^^xsd:date ;
+    p1:description "Distant object moving from side to side. Bright light, brighter than any star. Went dim from time to time."^^xsd:string ;
+    p1:location ex:Location61 ;
+    p1:time "07:40:00"^^xsd:time .
+
+ex:SightingEvent67 a p1:SightingEvent ;
+    p1:date "2002-01-01"^^xsd:date ;
+    p1:description "A glowing white light that was flashing."^^xsd:string ;
+    p1:location ex:Location62 ;
+    p1:time "22:30:00"^^xsd:time .
+
+ex:SightingEvent68 a p1:SightingEvent ;
+    p1:date "2002-01-09"^^xsd:date ;
+    p1:description "Green, circular object, that was hovering in its position."^^xsd:string ;
+    p1:location ex:Location63 ;
+    p1:time "23:30:00"^^xsd:time .
+
+ex:SightingEvent69 a p1:SightingEvent ;
+    p1:date "2002-01-19"^^xsd:date ;
+    p1:description "One spherically shaped object, that was white and very bright. The object moved at speed in a straight line, then disappeared."^^xsd:string ;
+    p1:location ex:Location64 ;
+    p1:time "02:00:00"^^xsd:time .
+
+ex:SightingEvent7 a p1:SightingEvent ;
+    p1:date "1968-10-10"^^xsd:date ;
+    p1:description "ROUND &#44 ORANGE &#44 WITH WHAT I WOULD SAY WAS POLISHED METAL OF SOME KIND AROUND THE EDGES ."^^xsd:string ;
+    p1:duration "PT5M"^^xsd:duration ;
+    p1:location ex:Location7 ;
+    p1:shape ex:Shape1 ;
+    p1:time "13:00:00"^^xsd:time .
+
+ex:SightingEvent70 a p1:SightingEvent ;
+    p1:date "2002-01-27"^^xsd:date ;
+    p1:description "Four small bright, white lights that looked like headlamps."^^xsd:string ;
+    p1:location ex:Location65 ;
+    p1:time "19:25:00"^^xsd:time .
+
+ex:SightingEvent71 a p1:SightingEvent ;
+    p1:date "2002-01-28"^^xsd:date ;
+    p1:description "Three triangle shaped object. Looked like the Mitsubishi car sign. Middle triangle was brighter than the other two."^^xsd:string ;
+    p1:location ex:Location66 ;
+    p1:time "03:00:00"^^xsd:time .
+
+ex:SightingEvent72 a p1:SightingEvent ;
+    p1:date "2002-02-06"^^xsd:date ;
+    p1:description "One globe with attachment that was white and very bright."^^xsd:string ;
+    p1:location ex:Location67 ;
+    p1:time "19:05:00"^^xsd:time .
+
+ex:SightingEvent73 a p1:SightingEvent ;
+    p1:date "2002-02-13"^^xsd:date ;
+    p1:description "Twenty silver balls with an orange tinge were seen flying West of Enfield Wash."^^xsd:string ;
+    p1:location ex:Location68 ;
+    p1:time "22:19:00"^^xsd:time .
+
+ex:SightingEvent74 a p1:SightingEvent ;
+    p1:date "2002-02-14"^^xsd:date ;
+    p1:description "White lights."^^xsd:string ;
+    p1:location ex:Location69 ;
+    p1:time "21:11:00"^^xsd:time .
+
+ex:SightingEvent75 a p1:SightingEvent ;
+    p1:date "2003-01-04"^^xsd:date ;
+    p1:description "White object with vivid flashing green, blue and red lights."^^xsd:string ;
+    p1:time "21:15:00"^^xsd:time .
+
+ex:SightingEvent76 a p1:SightingEvent ;
+    p1:date "2003-01-06"^^xsd:date ;
+    p1:description "Three silver or white balls in the sky, joined by another two. Quite large. Travelling in a line."^^xsd:string ;
+    p1:location ex:Location52 ;
+    p1:time "15:00:00"^^xsd:time .
+
+ex:SightingEvent77 a p1:SightingEvent ;
+    p1:date "2003-01-07"^^xsd:date ;
+    p1:description "One bright white object, hovering at first, then moving quickly."^^xsd:string ;
+    p1:location ex:Location58 ;
+    p1:time "21:26:00"^^xsd:time .
+
+ex:SightingEvent78 a p1:SightingEvent ;
+    p1:date "2003-01-08"^^xsd:date ;
+    p1:description "Changing shape. Strong blue, green and red lights pulsating lights. Jumbo Jet sized."^^xsd:string ;
+    p1:time "22:00:00"^^xsd:time .
+
+ex:SightingEvent79 a p1:SightingEvent ;
+    p1:date "2003-01-10"^^xsd:date ;
+    p1:description "Lights, that were formed in a worm shape, wriggling around in the sky."^^xsd:string ;
+    p1:location ex:Location59 ;
+    p1:time "01:00:00"^^xsd:time .
+
+ex:SightingEvent8 a p1:SightingEvent ;
+    p1:date "1968-10-10"^^xsd:date ;
+    p1:description "silent red /orange mass of energy floated by three of us in western North Carolina in the 60s"^^xsd:string ;
+    p1:duration "PT3M"^^xsd:duration ;
+    p1:location ex:Location8 ;
+    p1:shape ex:Shape5 ;
+    p1:time "19:00:00"^^xsd:time .
+
+ex:SightingEvent80 a p1:SightingEvent ;
+    p1:date "2003-01-11"^^xsd:date ;
+    p1:description "Oblong in shape with three vertical flashing lights, red, yellow and green, all flashing at the same time."^^xsd:string ;
+    p1:location ex:Location60 ;
+    p1:time "23:45:00"^^xsd:time .
+
+ex:SightingEvent81 a p1:SightingEvent ;
+    p1:date "2003-01-13"^^xsd:date ;
+    p1:description "Distant object moving from side to side. Bright light, brighter than any star. Went dim from time to time."^^xsd:string ;
+    p1:location ex:Location61 ;
+    p1:time "07:40:00"^^xsd:time .
+
+ex:SightingEvent82 a p1:SightingEvent ;
+    p1:date "2004-01-02"^^xsd:date ;
+    p1:description "A square red object, pinkish at the front."^^xsd:string ;
+    p1:location ex:Location49 ;
+    p1:time "04:30:00"^^xsd:time .
+
+ex:SightingEvent83 a p1:SightingEvent ;
+    p1:date "2004-01-09"^^xsd:date ;
+    p1:description "One large black triangular aircraft with three bright lights in a triangle formation. There was a rumbling sound."^^xsd:string ;
+    p1:location ex:Location50 ;
+    p1:time "14:00:00"^^xsd:time .
+
+ex:SightingEvent84 a p1:SightingEvent ;
+    p1:date "2004-01-09"^^xsd:date ;
+    p1:description "Strange light that was watched for one and a half hours."^^xsd:string ;
+    p1:location ex:Location51 ;
+    p1:time "22:30:00"^^xsd:time .
+
+ex:SightingEvent85 a p1:SightingEvent ;
+    p1:date "2004-01-12"^^xsd:date ;
+    p1:description "Round object with white lights all around it."^^xsd:string ;
+    p1:location ex:Location52 ;
+    p1:time "16:30:00"^^xsd:time .
+
+ex:SightingEvent86 a p1:SightingEvent ;
+    p1:date "2004-01-27"^^xsd:date ;
+    p1:description "Four dull red lights above the house, travelling fast and low."^^xsd:string ;
+    p1:location ex:Location53 ;
+    p1:time "21:00:00"^^xsd:time .
+
+ex:SightingEvent87 a p1:SightingEvent ;
+    p1:date "2004-01-27"^^xsd:date ;
+    p1:description "One object seen over Retford Town Hall."^^xsd:string ;
+    p1:location ex:Location54 ;
+    p1:time "23:08:00"^^xsd:time .
+
+ex:SightingEvent88 a p1:SightingEvent ;
+    p1:date "2004-01-28"^^xsd:date ;
+    p1:description "Flashing green lights 1000-5000ft up in the sky."^^xsd:string ;
+    p1:location ex:Location53 ;
+    p1:time "18:30:00"^^xsd:time .
+
+ex:SightingEvent89 a p1:SightingEvent ;
+    p1:date "2004-01-28"^^xsd:date ;
+    p1:description "Lights in the night sky flying in formation."^^xsd:string ;
+    p1:location ex:Location55 ;
+    p1:time "18:15:00"^^xsd:time .
+
+ex:SightingEvent9 a p1:SightingEvent ;
+    p1:date "1970-10-10"^^xsd:date ;
+    p1:description "silver disc seen by family and neighbors"^^xsd:string ;
+    p1:duration "PT30M"^^xsd:duration ;
+    p1:location ex:Location9 ;
+    p1:shape ex:Shape4 ;
+    p1:time "16:00:00"^^xsd:time .
+
+ex:SightingEvent90 a p1:SightingEvent ;
+    p1:date "2004-02-04"^^xsd:date ;
+    p1:description "Object appeared to be a soundless pair of lights, one yellow, the other white. No discernable shape."^^xsd:string ;
+    p1:location ex:Location56 ;
+    p1:time "06:15:00"^^xsd:time .
+
+ex:SightingEvent91 a p1:SightingEvent ;
+    p1:date "2004-02-08"^^xsd:date ;
+    p1:description "Four lights, one brighter than the others, sometimes fading."^^xsd:string ;
+    p1:location ex:Location57 ;
+    p1:time "21:45:00"^^xsd:time .
+
+ex:SightingEvent92 a p1:SightingEvent ;
+    p1:date "2005-01-14"^^xsd:date ;
+    p1:description "Two bright lights, really round, and orange in colour."^^xsd:string ;
+    p1:location ex:Location65 ;
+    p1:time "00:24:00"^^xsd:time .
+
+ex:SightingEvent93 a p1:SightingEvent ;
+    p1:date "2005-01-15"^^xsd:date ;
+    p1:description "Just said it was a flying saucer."^^xsd:string ;
+    p1:location ex:Location70 ;
+    p1:time "23:15:00"^^xsd:time .
+
+ex:SightingEvent94 a p1:SightingEvent ;
+    p1:date "2005-01-24"^^xsd:date ;
+    p1:description "There were eighteen lights moving across the sky."^^xsd:string ;
+    p1:location ex:Location71 ;
+    p1:time "23:10:00"^^xsd:time .
+
+ex:SightingEvent95 a p1:SightingEvent ;
+    p1:date "2005-01-31"^^xsd:date ;
+    p1:description "Looked like an orange ball of light, like a big star in the sky and it had spiderish legs."^^xsd:string ;
+    p1:location ex:Location72 ;
+    p1:time "05:00:00"^^xsd:time .
+
+ex:SightingEvent96 a p1:SightingEvent ;
+    p1:date "2005-01-31"^^xsd:date ;
+    p1:description "Light bulbs in the sky. (From the Scarborough Evening Post)."^^xsd:string ;
+    p1:location ex:Location73 ;
+    p1:time "16:30:00"^^xsd:time .
+
+ex:SightingEvent97 a p1:SightingEvent ;
+    p1:date "2006-01-30"^^xsd:date ;
+    p1:description "A light was seen travelling rapidly due South West."^^xsd:string ;
+    p1:location ex:Location74 ;
+    p1:time "06:00:00"^^xsd:time .
+
+ex:SightingEvent98 a p1:SightingEvent ;
+    p1:date "2006-02-07"^^xsd:date ;
+    p1:description "Four lights in the sky, a bit like fluorescent light strips, with a yellow tinge and very bright, were floating and then disappeared."^^xsd:string ;
+    p1:location ex:Location75 ;
+    p1:time "14:08:00"^^xsd:time .
+
+ex:SightingEvent99 a p1:SightingEvent ;
+    p1:date "2006-02-10"^^xsd:date ;
+    p1:description "A light was seen that was a flashing ball, changing colour from red, orange, green and blue. Was hovering for about 30 minutes."^^xsd:string ;
+    p1:location ex:Location76 ;
+    p1:time "19:20:00"^^xsd:time .
 
 ex:Location0 a p1:Location ;
     p1:latitude 29.8830556 ;
@@ -532,9 +878,65 @@ ex:Location6 a p1:Location ;
     p1:latitude 30.2947222 ;
     p1:longitude -82.9841667 .
 
+ex:Location62 a p1:Location ;
+    p1:latitude 51.23956475 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location63 a p1:Location ;
+    p1:latitude 52.9502846 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location64 a p1:Location ;
+    p1:latitude 53.4453662 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location66 a p1:Location ;
+    p1:latitude 52.6780419 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location67 a p1:Location ;
+    p1:latitude 52.6729192 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location68 a p1:Location ;
+    p1:latitude 51.6520851 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location69 a p1:Location ;
+    p1:latitude 50.5446768 ;
+    p1:longitude "t"^^xsd:decimal .
+
 ex:Location7 a p1:Location ;
     p1:latitude 33.9163889 ;
     p1:longitude -118.3516667 .
+
+ex:Location70 a p1:Location ;
+    p1:latitude 53.0162014 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location71 a p1:Location ;
+    p1:latitude 51.9329994 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location72 a p1:Location ;
+    p1:latitude 53.3564341 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location73 a p1:Location ;
+    p1:latitude 54.2820009 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location74 a p1:Location ;
+    p1:latitude 52.707755 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location75 a p1:Location ;
+    p1:latitude 51.8896903 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location76 a p1:Location ;
+    p1:latitude 51.420633 ;
+    p1:longitude "t"^^xsd:decimal .
 
 ex:Location8 a p1:Location ;
     p1:latitude 35.2333333 ;
@@ -560,6 +962,54 @@ ex:Location25 a p1:Location ;
     p1:latitude 29.7630556 ;
     p1:longitude -95.3630556 .
 
+ex:Location49 a p1:Location ;
+    p1:latitude 50.21198645 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location50 a p1:Location ;
+    p1:latitude 52.4777114 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location51 a p1:Location ;
+    p1:latitude 51.952532399999996 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location54 a p1:Location ;
+    p1:latitude 53.3231315 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location55 a p1:Location ;
+    p1:latitude 52.4563428 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location56 a p1:Location ;
+    p1:latitude 54.436456 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location57 a p1:Location ;
+    p1:latitude 52.3990199 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location58 a p1:Location ;
+    p1:latitude 53.824548300000004 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location59 a p1:Location ;
+    p1:latitude 51.4585222 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location60 a p1:Location ;
+    p1:latitude 52.5345626 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location61 a p1:Location ;
+    p1:latitude 51.5380943 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location65 a p1:Location ;
+    p1:latitude 53.7974185 ;
+    p1:longitude "t"^^xsd:decimal .
+
 ex:Shape11 a p1:Shape ;
     p1:name "formation"^^xsd:string .
 
@@ -571,6 +1021,14 @@ ex:Shape3 a p1:Shape ;
 
 ex:Shape7 a p1:Shape ;
     p1:name "oval"^^xsd:string .
+
+ex:Location52 a p1:Location ;
+    p1:latitude 53.6466645 ;
+    p1:longitude "t"^^xsd:decimal .
+
+ex:Location53 a p1:Location ;
+    p1:latitude 52.5725769 ;
+    p1:longitude "t"^^xsd:decimal .
 
 ex:Shape1 a p1:Shape ;
     p1:name "circle"^^xsd:string .
