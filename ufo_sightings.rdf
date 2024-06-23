@@ -458,42 +458,43 @@ ex:SightingEvent62 a p1:SightingEvent ;
 ex:SightingEvent63 a p1:SightingEvent ;
     p1:date "2003-01-08"^^xsd:date ;
     p1:description "Changing shape. Strong blue, green and red lights pulsating lights. Jumbo Jet sized."^^xsd:string ;
+    p1:location ex:Location59 ;
     p1:time "22:00:00"^^xsd:time .
 
 ex:SightingEvent64 a p1:SightingEvent ;
     p1:date "2003-01-10"^^xsd:date ;
     p1:description "Lights, that were formed in a worm shape, wriggling around in the sky."^^xsd:string ;
-    p1:location ex:Location59 ;
+    p1:location ex:Location60 ;
     p1:time "01:00:00"^^xsd:time .
 
 ex:SightingEvent65 a p1:SightingEvent ;
     p1:date "2003-01-11"^^xsd:date ;
     p1:description "Oblong in shape with three vertical flashing lights, red, yellow and green, all flashing at the same time."^^xsd:string ;
-    p1:location ex:Location60 ;
+    p1:location ex:Location61 ;
     p1:time "23:45:00"^^xsd:time .
 
 ex:SightingEvent66 a p1:SightingEvent ;
     p1:date "2003-01-13"^^xsd:date ;
     p1:description "Distant object moving from side to side. Bright light, brighter than any star. Went dim from time to time."^^xsd:string ;
-    p1:location ex:Location61 ;
+    p1:location ex:Location62 ;
     p1:time "07:40:00"^^xsd:time .
 
 ex:SightingEvent67 a p1:SightingEvent ;
     p1:date "2002-01-01"^^xsd:date ;
     p1:description "A glowing white light that was flashing."^^xsd:string ;
-    p1:location ex:Location62 ;
+    p1:location ex:Location63 ;
     p1:time "22:30:00"^^xsd:time .
 
 ex:SightingEvent68 a p1:SightingEvent ;
     p1:date "2002-01-09"^^xsd:date ;
     p1:description "Green, circular object, that was hovering in its position."^^xsd:string ;
-    p1:location ex:Location63 ;
+    p1:location ex:Location64 ;
     p1:time "23:30:00"^^xsd:time .
 
 ex:SightingEvent69 a p1:SightingEvent ;
     p1:date "2002-01-19"^^xsd:date ;
     p1:description "One spherically shaped object, that was white and very bright. The object moved at speed in a straight line, then disappeared."^^xsd:string ;
-    p1:location ex:Location64 ;
+    p1:location ex:Location65 ;
     p1:time "02:00:00"^^xsd:time .
 
 ex:SightingEvent7 a p1:SightingEvent ;
@@ -507,31 +508,31 @@ ex:SightingEvent7 a p1:SightingEvent ;
 ex:SightingEvent70 a p1:SightingEvent ;
     p1:date "2002-01-27"^^xsd:date ;
     p1:description "Four small bright, white lights that looked like headlamps."^^xsd:string ;
-    p1:location ex:Location65 ;
+    p1:location ex:Location66 ;
     p1:time "19:25:00"^^xsd:time .
 
 ex:SightingEvent71 a p1:SightingEvent ;
     p1:date "2002-01-28"^^xsd:date ;
     p1:description "Three triangle shaped object. Looked like the Mitsubishi car sign. Middle triangle was brighter than the other two."^^xsd:string ;
-    p1:location ex:Location66 ;
+    p1:location ex:Location67 ;
     p1:time "03:00:00"^^xsd:time .
 
 ex:SightingEvent72 a p1:SightingEvent ;
     p1:date "2002-02-06"^^xsd:date ;
     p1:description "One globe with attachment that was white and very bright."^^xsd:string ;
-    p1:location ex:Location67 ;
+    p1:location ex:Location68 ;
     p1:time "19:05:00"^^xsd:time .
 
 ex:SightingEvent73 a p1:SightingEvent ;
     p1:date "2002-02-13"^^xsd:date ;
     p1:description "Twenty silver balls with an orange tinge were seen flying West of Enfield Wash."^^xsd:string ;
-    p1:location ex:Location68 ;
+    p1:location ex:Location69 ;
     p1:time "22:19:00"^^xsd:time .
 
 ex:SightingEvent74 a p1:SightingEvent ;
     p1:date "2002-02-14"^^xsd:date ;
     p1:description "White lights."^^xsd:string ;
-    p1:location ex:Location69 ;
+    p1:location ex:Location70 ;
     p1:time "21:11:00"^^xsd:time .
 
 ex:SightingEvent75 a p1:SightingEvent ;
@@ -554,12 +555,13 @@ ex:SightingEvent77 a p1:SightingEvent ;
 ex:SightingEvent78 a p1:SightingEvent ;
     p1:date "2003-01-08"^^xsd:date ;
     p1:description "Changing shape. Strong blue, green and red lights pulsating lights. Jumbo Jet sized."^^xsd:string ;
+    p1:location ex:Location59 ;
     p1:time "22:00:00"^^xsd:time .
 
 ex:SightingEvent79 a p1:SightingEvent ;
     p1:date "2003-01-10"^^xsd:date ;
     p1:description "Lights, that were formed in a worm shape, wriggling around in the sky."^^xsd:string ;
-    p1:location ex:Location59 ;
+    p1:location ex:Location60 ;
     p1:time "01:00:00"^^xsd:time .
 
 ex:SightingEvent8 a p1:SightingEvent ;
@@ -573,13 +575,13 @@ ex:SightingEvent8 a p1:SightingEvent ;
 ex:SightingEvent80 a p1:SightingEvent ;
     p1:date "2003-01-11"^^xsd:date ;
     p1:description "Oblong in shape with three vertical flashing lights, red, yellow and green, all flashing at the same time."^^xsd:string ;
-    p1:location ex:Location60 ;
+    p1:location ex:Location61 ;
     p1:time "23:45:00"^^xsd:time .
 
 ex:SightingEvent81 a p1:SightingEvent ;
     p1:date "2003-01-13"^^xsd:date ;
     p1:description "Distant object moving from side to side. Bright light, brighter than any star. Went dim from time to time."^^xsd:string ;
-    p1:location ex:Location61 ;
+    p1:location ex:Location62 ;
     p1:time "07:40:00"^^xsd:time .
 
 ex:SightingEvent82 a p1:SightingEvent ;
@@ -653,49 +655,49 @@ ex:SightingEvent91 a p1:SightingEvent ;
 ex:SightingEvent92 a p1:SightingEvent ;
     p1:date "2005-01-14"^^xsd:date ;
     p1:description "Two bright lights, really round, and orange in colour."^^xsd:string ;
-    p1:location ex:Location65 ;
+    p1:location ex:Location66 ;
     p1:time "00:24:00"^^xsd:time .
 
 ex:SightingEvent93 a p1:SightingEvent ;
     p1:date "2005-01-15"^^xsd:date ;
     p1:description "Just said it was a flying saucer."^^xsd:string ;
-    p1:location ex:Location70 ;
+    p1:location ex:Location71 ;
     p1:time "23:15:00"^^xsd:time .
 
 ex:SightingEvent94 a p1:SightingEvent ;
     p1:date "2005-01-24"^^xsd:date ;
     p1:description "There were eighteen lights moving across the sky."^^xsd:string ;
-    p1:location ex:Location71 ;
+    p1:location ex:Location72 ;
     p1:time "23:10:00"^^xsd:time .
 
 ex:SightingEvent95 a p1:SightingEvent ;
     p1:date "2005-01-31"^^xsd:date ;
     p1:description "Looked like an orange ball of light, like a big star in the sky and it had spiderish legs."^^xsd:string ;
-    p1:location ex:Location72 ;
+    p1:location ex:Location73 ;
     p1:time "05:00:00"^^xsd:time .
 
 ex:SightingEvent96 a p1:SightingEvent ;
     p1:date "2005-01-31"^^xsd:date ;
     p1:description "Light bulbs in the sky. (From the Scarborough Evening Post)."^^xsd:string ;
-    p1:location ex:Location73 ;
+    p1:location ex:Location74 ;
     p1:time "16:30:00"^^xsd:time .
 
 ex:SightingEvent97 a p1:SightingEvent ;
     p1:date "2006-01-30"^^xsd:date ;
     p1:description "A light was seen travelling rapidly due South West."^^xsd:string ;
-    p1:location ex:Location74 ;
+    p1:location ex:Location75 ;
     p1:time "06:00:00"^^xsd:time .
 
 ex:SightingEvent98 a p1:SightingEvent ;
     p1:date "2006-02-07"^^xsd:date ;
     p1:description "Four lights in the sky, a bit like fluorescent light strips, with a yellow tinge and very bright, were floating and then disappeared."^^xsd:string ;
-    p1:location ex:Location75 ;
+    p1:location ex:Location76 ;
     p1:time "14:08:00"^^xsd:time .
 
 ex:SightingEvent99 a p1:SightingEvent ;
     p1:date "2006-02-10"^^xsd:date ;
     p1:description "A light was seen that was a flashing ball, changing colour from red, orange, green and blue. Was hovering for about 30 minutes."^^xsd:string ;
-    p1:location ex:Location76 ;
+    p1:location ex:Location77 ;
     p1:time "19:20:00"^^xsd:time .
 
 ex:Location0 a p1:Location ;
@@ -878,65 +880,65 @@ ex:Location6 a p1:Location ;
     p1:latitude 30.2947222 ;
     p1:longitude -82.9841667 .
 
-ex:Location62 a p1:Location ;
-    p1:latitude 51.23956475 ;
-    p1:longitude "t"^^xsd:decimal .
-
 ex:Location63 a p1:Location ;
-    p1:latitude 52.9502846 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 56.3403902000000016414560377597808837890625 ;
+    p1:longitude -2.79558440000000008041070032049901783466339111328125 .
 
 ex:Location64 a p1:Location ;
-    p1:latitude 53.4453662 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 51.61959550000000263025867752730846405029296875 ;
+    p1:longitude -3.945924799999999788013838042388670146465301513671875 .
 
-ex:Location66 a p1:Location ;
-    p1:latitude 52.6780419 ;
-    p1:longitude "t"^^xsd:decimal .
+ex:Location65 a p1:Location ;
+    p1:latitude 53.44536620000000226582415052689611911773681640625 ;
+    p1:longitude -2.352546300000000201180228032171726226806640625 .
 
 ex:Location67 a p1:Location ;
-    p1:latitude 52.6729192 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 52.6780418999999966445102472789585590362548828125 ;
+    p1:longitude -2.451427300000000197854888028814457356929779052734375 .
 
 ex:Location68 a p1:Location ;
-    p1:latitude 51.6520851 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 52.67291920000000260415617958642542362213134765625 ;
+    p1:longitude 0.5900516054944289212613739437074400484561920166015625 .
 
 ex:Location69 a p1:Location ;
-    p1:latitude 50.5446768 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 51.65208510000000075024217949248850345611572265625 ;
+    p1:longitude -0.08101750000000000617728090901437099091708660125732421875 .
 
 ex:Location7 a p1:Location ;
     p1:latitude 33.9163889 ;
     p1:longitude -118.3516667 .
 
 ex:Location70 a p1:Location ;
-    p1:latitude 53.0162014 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 50.54467679999999774054231238551437854766845703125 ;
+    p1:longitude -4.9118107999999995882944858749397099018096923828125 .
 
 ex:Location71 a p1:Location ;
-    p1:latitude 51.9329994 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 53.016201399999999921419657766819000244140625 ;
+    p1:longitude -2.18126070000000016335661712219007313251495361328125 .
 
 ex:Location72 a p1:Location ;
-    p1:latitude 53.3564341 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 54.42422839999999695237420382909476757049560546875 ;
+    p1:longitude -6.44121330000000025250983526348136365413665771484375 .
 
 ex:Location73 a p1:Location ;
-    p1:latitude 54.2820009 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 51.5952352999999988014678820036351680755615234375 ;
+    p1:longitude -3.782414800000000187907289728173054754734039306640625 .
 
 ex:Location74 a p1:Location ;
-    p1:latitude 52.707755 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 54.2820008999999998877683538012206554412841796875 ;
+    p1:longitude -0.401186800000000010069101108456379733979701995849609375 .
 
 ex:Location75 a p1:Location ;
-    p1:latitude 51.8896903 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 52.70775499999999880174073041416704654693603515625 ;
+    p1:longitude -2.754065799999999786251692057703621685504913330078125 .
 
 ex:Location76 a p1:Location ;
-    p1:latitude 51.420633 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 51.8896902999999980465872795321047306060791015625 ;
+    p1:longitude 0.899465100000000017388401829521171748638153076171875 .
+
+ex:Location77 a p1:Location ;
+    p1:latitude 51.42063300000000225509211304597556591033935546875 ;
+    p1:longitude -1.7251743451994652200909285966190509498119354248046875 .
 
 ex:Location8 a p1:Location ;
     p1:latitude 35.2333333 ;
@@ -963,52 +965,56 @@ ex:Location25 a p1:Location ;
     p1:longitude -95.3630556 .
 
 ex:Location49 a p1:Location ;
-    p1:latitude 50.21198645 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 55.46280440000000311329131363891065120697021484375 ;
+    p1:longitude -4.63025019999999987163619152852334082126617431640625 .
 
 ex:Location50 a p1:Location ;
-    p1:latitude 52.4777114 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 52.47771139999999689962351112626492977142333984375 ;
+    p1:longitude -0.92085749999999999548805362792336381971836090087890625 .
 
 ex:Location51 a p1:Location ;
-    p1:latitude 51.952532399999996 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 51.9525323999999955049133859574794769287109375 ;
+    p1:longitude 0.343823897088007368605389046933851204812526702880859375 .
 
 ex:Location54 a p1:Location ;
-    p1:latitude 53.3231315 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 53.3231315000000023474058252759277820587158203125 ;
+    p1:longitude -0.94248790000000004507541007114923559129238128662109375 .
 
 ex:Location55 a p1:Location ;
-    p1:latitude 52.4563428 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 52.4563428000000016027115634642541408538818359375 ;
+    p1:longitude -2.422817999999999916127535470877774059772491455078125 .
 
 ex:Location56 a p1:Location ;
-    p1:latitude 54.436456 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 54.43645599999999973306330502964556217193603515625 ;
+    p1:longitude -0.72535749999999998838262627032236196100711822509765625 .
 
 ex:Location57 a p1:Location ;
-    p1:latitude 52.3990199 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 52.3990198999999989837306202389299869537353515625 ;
+    p1:longitude 0.26203900000000002190603254348388873040676116943359375 .
 
 ex:Location58 a p1:Location ;
-    p1:latitude 53.824548300000004 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 53.81794419999999945503077469766139984130859375 ;
+    p1:longitude -3.05098119999999983775751388748176395893096923828125 .
 
 ex:Location59 a p1:Location ;
-    p1:latitude 51.4585222 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 56.1842644000000035475750337354838848114013671875 ;
+    p1:longitude -3.126531899999999808414941071532666683197021484375 .
 
 ex:Location60 a p1:Location ;
-    p1:latitude 52.5345626 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 51.45852219999999732635842519812285900115966796875 ;
+    p1:longitude -0.075030399999999997096011838948470540344715118408203125 .
 
 ex:Location61 a p1:Location ;
-    p1:latitude 51.5380943 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 52.5345626000000009980794857256114482879638671875 ;
+    p1:longitude -2.41941320000000015255636753863655030727386474609375 .
 
-ex:Location65 a p1:Location ;
-    p1:latitude 53.7974185 ;
-    p1:longitude "t"^^xsd:decimal .
+ex:Location62 a p1:Location ;
+    p1:latitude 56.56557109999999966021277941763401031494140625 ;
+    p1:longitude -3.586254600000000181125869858078658580780029296875 .
+
+ex:Location66 a p1:Location ;
+    p1:latitude 53.79741849999999914189174887724220752716064453125 ;
+    p1:longitude -1.543794099999999946959405860980041325092315673828125 .
 
 ex:Shape11 a p1:Shape ;
     p1:name "formation"^^xsd:string .
@@ -1023,12 +1029,12 @@ ex:Shape7 a p1:Shape ;
     p1:name "oval"^^xsd:string .
 
 ex:Location52 a p1:Location ;
-    p1:latitude 53.6466645 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 53.6466644999999999754436430521309375762939453125 ;
+    p1:longitude -1.7822481999999999491279822905198670923709869384765625 .
 
 ex:Location53 a p1:Location ;
-    p1:latitude 52.5725769 ;
-    p1:longitude "t"^^xsd:decimal .
+    p1:latitude 52.57257690000000138752511702477931976318359375 ;
+    p1:longitude -0.2427335999999999938125938570010475814342498779296875 .
 
 ex:Shape1 a p1:Shape ;
     p1:name "circle"^^xsd:string .
