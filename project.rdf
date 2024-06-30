@@ -49,15 +49,15 @@ p1:gender rdf:type owl:ObjectProperty ,
     rdfs:range p1:Gender .
 
 p1:location rdf:type owl:ObjectProperty ;
-    rdfs:domain p1:Event ;
+    rdfs:domain p1:SightingEvent ;
     rdfs:range p1:Location .
 
 p1:witnessOf rdf:type owl:ObjectProperty ;
-    rdfs:domain p1:Event ;
+    rdfs:domain p1:SightingEvent ;
     rdfs:range p1:Witness .
 
 p1:shape rdf:type owl:ObjectProperty ;
-    rdfs:domain p1:Event ;
+    rdfs:domain p1:SightingEvent ;
     rdfs:range p1:Shape .
 
 p1:city rdf:type owl:ObjectProperty ;
@@ -79,17 +79,17 @@ p1:age rdf:type owl:DatatypeProperty ,
 
 p1:date rdf:type owl:DatatypeProperty ,
         owl:FunctionalProperty ;
-    rdfs:domain p1:Event ;
+    rdfs:domain p1:SightingEvent ;
     rdfs:range xsd:date .
 
 p1:time rdf:type owl:DatatypeProperty ,
         owl:FunctionalProperty ;
-    rdfs:domain p1:Event ;
+    rdfs:domain p1:SightingEvent ;
     rdfs:range xsd:time .
 
 p1:duration rdf:type owl:DatatypeProperty ,
         owl:FunctionalProperty ;
-    rdfs:domain p1:Event ;
+    rdfs:domain p1:SightingEvent ;
     rdfs:range xsd:duration .
 
 p1:name rdf:type owl:DatatypeProperty ;
